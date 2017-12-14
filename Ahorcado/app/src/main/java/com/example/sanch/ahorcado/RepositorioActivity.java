@@ -3,12 +3,16 @@ package com.example.sanch.ahorcado;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Random;
 
 public class RepositorioActivity extends AppCompatActivity {
 
     Random NumeroAleatorio = new Random();
+
+    File archivo = new File("animales.txt");
+
 
     String Animales []= new String []{"PERRO","CANGREJO","HORMIGA","BALLENA","RATA","GATO","PERICO","TUGFA","PINGUINO","LEON"};
     String Frutas []= new String[]{"CARAMBOLA","FRAMBUESA","GRANADA","MEMBRILLO","HIGO","ARANDANO","KIWI","FRESA","UVA","GRANADA"};
